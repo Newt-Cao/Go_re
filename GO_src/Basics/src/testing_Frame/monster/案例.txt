@@ -1,0 +1,4 @@
+1.编写一个 Monster 结构体，字段要求：Name、Age、Skill；
+2.给该结构体绑定方法 Store ，可以将 Monster 对象，序列化后保存到文件中；
+3.给Monster绑定方法 ReStore ，可以将序列化的 Monster ，从文件中读取，并发序列化为 Monster 对象，检查翻学列化是否正确；
+4.编写测试文件store_test.go，测试函数 Store 和 ReStore 。
